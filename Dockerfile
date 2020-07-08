@@ -2,7 +2,7 @@ FROM python:3.7-slim-stretch
 
 # Secrets
 ENV aircall_api_key=0192f78b26c1a1f47f599652e9ed92a0
-ENV slack_webhook_url=
+ENV slack_webhook_url=https://hooks.slack.com/services/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
 
 # Airflow
 ARG AIRFLOW_VERSION=1.10.10
